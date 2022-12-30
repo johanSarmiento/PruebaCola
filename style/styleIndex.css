@@ -9,3 +9,20 @@
     align-items: center;
     justify-content: center;
 }
+.navBar{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navBar .navLeft{
+    flex-direction: row;
+    
+}
+.navBar .navLeft .navList{
+    flex-direction: row;
+}
+.navBar .navLeft .logo{
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/logo.png");
+}
+
