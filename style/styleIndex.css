@@ -9,26 +9,55 @@
     align-items: center;
     justify-content: center;
 }
-.navBar{
+.navBarr{
+    height: 15vh;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #000;
 }
-.navBar .navLeft{
-    flex-direction: row;
-    
-}
-.navBar .navLeft .navList{
+.navBarr .navLeft{
+    width: 65%;
     flex-direction: row;
 }
-.navBar .navLeft .logo{
-    width: 50px;
-    height: 50px;
+.navBarr .navLeft .navListt{
+    flex-direction: row;
+}
+.navBarr .navLeft .navListt .aaa,.aa{
+    margin-top: 18px;
+    padding: 0 10px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.89em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+.navBarr .navLeft .navListt a:hover{
+    padding: 10px 10px;
+    color:#000;
+    background-color: #fff;
+}
+
+.navBarr .navLeft .logo{
+    width: 78px;
+    height: 60px;
     background-image: url("../img/logo.png");
 }
-
-
-
-
+.navBarr .navRight{
+    width: 20%;
+    flex-direction: row;
+}
+.navBarr .navRight .shopi{
+    width: 30px;
+    height: 20px;
+    margin-top: 12px;
+    background: url(../img/img-sprite.png) no-repeat -66px -8px;
+}
+.navBarr .navRight .search{
+    width: 30px;
+    height: 30px;
+    background: #000 url(../img/img-sprite.png) no-repeat 0px 1px;
+}
 
 
 

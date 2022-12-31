@@ -5,30 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/styleIndex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="js/app.js"></script>
     <title></title>
 </head>
 <body>
     <header>
-        <nav class="contenedor navBar">
+        <nav class="contenedor navBarr">
             <div class="contenedor navLeft">
                 <div class="logo"></div>
-                <ul class="contenedor navList">
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">TEAM</a></li>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">EXPERIANCE</a></li>
-                    <li><a href="#">COMPANY</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                <ul class="contenedor navListt">
+                    <li class="aaa"><a class="aa" href="#">SHOP</a></li>
+                    <li class="aaa"><a class="aa" href="#">TEAM</a></li>
+                    <li class="aaa"><a class="aa" href="#">EVENTS</a></li>
+                    <li class="aaa"><a class="aa" href="#">EXPERIANCE</a></li>
+                    <li class="aaa"><a class="aa" href="#">COMPANY</a></li>
+                    <li class="aaa"><a class="aa" href="#">CONTACT</a></li>
                 </ul>
             </div>
-            <div class="navRight">
+            <div class="contenedor navRight">
                 <div class="shopi"></div>
                 <div class="search"></div>
             </div>
         </nav>
     </header>
     <section class="contenedor Hero">
-        
+      
+        <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
     </section>
     <section class="contenedor Carrusel">
       
@@ -49,5 +70,7 @@
     <footer class="contenedor footer">
        
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
